@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Specify the command to run your script (modify as needed)
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
