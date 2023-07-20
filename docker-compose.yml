@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+
+  bot:
+    build: .
+    ports:
+      - "8000:8000"  # Modify the port if your script runs on a different port
